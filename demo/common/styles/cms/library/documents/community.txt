@@ -1,0 +1,23 @@
+Front End
+--------------------------------
+User Registration
+My account
+Cateogry Listing - Video,Image,Text
+Listing Detail
+Search Listing
+Top loved/hated lists(Weekly)
+Reviews/Ratings(Like/Dislike)/comments
+Ip Protection system for submitting ratings
+
+
+Admin Control Panel
+--------------------------------
+Manage Listings (List/add/edit/delete/activate/inactivate/filter/sort)
+Manage Users (List/add/edit/delete/activate/inactivate/filter/sort)
+Manage Reviews (List/add/edit/delete/activate/inactivate/filter/sort)
+Manage Ratings (List/add/edit/delete/activate/inactivate/filter/sort)
+Manage Comments (List/add/edit/delete/activate/inactivate/filter/sort)
+Cron job for automated deletion of listings which do not X votes in Y time
+Email Notifications
+
+

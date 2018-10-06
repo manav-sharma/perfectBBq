@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**** Main Navigations and Quicklinks (Home, change password, logout etc.) ****/
+#mainMenuWrapper{
+	background:url("../../media/images/core/main.nav.bg.gif") repeat-x #b2b4b8;
+	border-bottom:solid 1px #969799;
+	padding:0 22px 0 21px;
+	height:32px;
+}
+ul#mainMenu{
+	list-style-type:none;
+	float:left;
+	height:32px;
+	margin:0;
+}
+ul#mainMenu li{
+	padding:0 1px 0 0 0;
+	float:left;
+	position:relative;
+}
+ul#mainMenu li a{
+	display:block;
+	padding:8px 15px;
+	height:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:14px;
+	font-weight:bold;
+	color:#2a2a2a;
+	text-shadow: 1px 1px #c2c5c9;
+	float:left;
+	z-index:5000px;
+}
+ul#mainMenu li a img{
+	float:left;
+	vertical-align:top;
+	margin-right:5px;
+}
+ul#mainMenu li a:hover, ul#mainMenu li a.active{
+	background:url("../../media/images/core/main.nav.active.gif") left no-repeat #006aa7;
+	color:#f7f9fa;
+	text-shadow:1px 1px #004467;
+}
+/** Dropdown **/
+ul#mainMenu li ul{
+	margin:0;
+	display:none;
+	position:absolute;
+	top:28px;
+	left:-4px;
+	list-style-type:none;
+	float:none;
+	width:159px;
+	height:auto;
+	background:url("../../media/images/core/drop.down.bg.top.png") top no-repeat;
+	padding:15px 0 0 0;
+	z-index:1000;
+}
+ul#mainMenu li ul li{
+	width:149px;
+	padding:1px 5px;
+	background:url("../../media/images/core/drop.down.bg.png") repeat-y;
+}
+ul#mainMenu li ul li a{
+	padding:3px 12px;
+	width:125px;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:13px;
+	font-weight:normal;
+	color:#333;
+	text-shadow:none;
+	float:none;
+}
+ul#mainMenu li ul li a:hover{
+	background:#e5e5e7;
+	color:#000;
+	text-shadow:none;
+}
+ul#mainMenu li ul li.dropDownFooter{
+	background:url("../../media/images/core/drop.down.bg.bottom.png") top no-repeat;
+	height:14px;
+}
+/** 2nd Level Drop Down **/
+ul#mainMenu li ul li ul{
+	top:5px;
+	left:125px;
+}
+/** Intraction with Navigations **/
+ul#mainMenu li:hover ul, ul#mainMenu li.sfhover ul{
+	display:block;
+	font-size:1px;
+}
+ul#mainMenu li:hover ul ul, ul#mainMenu li.sfhover ul ul{
+	display:none;
+}
+ul#mainMenu li ul li:hover ul, ul#mainMenu li ul li.sfhover ul{
+	display:block;
+}
+

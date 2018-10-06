@@ -1,0 +1,102 @@
+THE FOLLOWING ARE THE SETTINGS FOR CMS EDITOR:-
+
+1. For ADDING THE NEW PLUGIN, FOLLOWING STEPS NEEDS TO BE FOLLOW:-
+
+	-  JUST COPY THAT PLUGIN AND PASTE IT IN CMS_MANAGER/CMS_EDITOR/PLUGINS/
+
+	-  AND ALSO MAKE THE NEW ENTRY OF THAT PARTICULAR PLUGIN IN JS.PHP file.
+
+	 (For example, if you want to add a new plugin "table" then just copy the table plugin and paste it in plugin folder and 
+	 make the entry of table plugin in js.php)
+
+
+2. FOR REMOVE THE PLUGIN FROM THE EDITOR, FOLLOWING STEPS NEEDS TO BE FOLLOW:-
+
+	- Just remove that particular plugin folder from CMS_MANAGER/CMS_EDITOR/PLUGINS/ and also remove the entry of plugin from js.php file.
+
+
+
+3. FOR REMOVE ADDITIONAL OPTIONS FROM CMS EDITOR, THE FOLLOWING STEPS NEEDS TO BE FOLLOW:-
+
+	- WHICHEVER OPTION YOU WANT TO REMOVE FROM THE EDITOR, JUST DELETE THOSE OPTIONS FROM JS.PHP FILE.
+
+	  (FOR EXAMPLES IF YOU WANT TO REMOVE THE BOLD ITEM FROM THE EDITOR THEN JUST DELETE IT FROM theme_advanced_buttons1
+
+	 SIMILARLY IF YOU DON'T WANT TO HAVE MORE THAN 3 OPTIONS IN THE EDITOR THEN JUST DELETE THE ADDITIONAL OPTIONS FROM 
+	 theme_advanced_buttons2 AND theme_advanced_buttons3 RESPECTIVELY AND REMAIN theme_advanced_buttons2 AND theme_advanced_buttons3 AS EMPTY STRING.)
+ 
+
+4. FOR ADDING THE ADDITIONAL OPTIONS FOR CMS EDITOR,THE FOLLOWING STEPS NEEDS TO BE FOLLOW:-
+
+	- WHICHEVER OPTION YOU WANT TO ADD FOR THE EDITOR, JUST TYPE THAT OPTION IN state controls like theme_advanced_buttons1(for 1st row),
+	 or in theme_advanced_buttons2(for 2nd row)  or in theme_advanced_buttons3(for 3rd row) or theme_advanced_buttons4(for 4th row)	
+
+	 (e.g. if i want to add undo,redo for simple editor in 2nd row, then i have to type for theme_advanced_buttons2:"undo,|,redo" 
+
+
+5. FOR CHANGING THE TOOLBAR LOCATION
+
+	- IF YOU WANT TO CHANGE THE TOOLBAR LOCATION E.G. TOP TO BOTTOM OR BOTTOM TO TOP THEN CHANGE IT IN JS.PHP FILE
+  	  BY ADJUSTING THE theme_advanced_toolbar_location:"TOP OR BOTTOM"
+
+
+6. FOR CHANGING THE STATUSBAR LOCATION
+
+	- WE CAN ALSO CHANGE THE STATUS BAR LOCATION E.G. TOP TO BOTTOM OR BOTTOM TO TOP THEN CHANGE IT IN JS.PHP FILE
+	  BY ADJUSTING THE theme_advanced_statusbar_location:"TOP OR BOTTOM"
+
+
+7. FOR CHANGE THE SKIN OF THE EDITOR, THE FOLLOWING ARE THE STEPS WHICH NEEDS TO BE FOLLOW:-
+
+	- CHANGE THE SKIN AS "o2k7" OR "default"(As we only have two skins in the cms standard i.e. default and o2k7) from "skin:" state control.
+
+	- We can also change the skin variant as "blue","black" or "silver for advanced cms". However, in the case of default skin, their is no need to change the skin_variant, it would take it's own color.
+
+
+8. For UPDATING THE CSS
+	- WE CAN CHANGE THE CSS NAME FROM JS.PHP FILE WITH "content_css:" state control.
+
+
+
+9. FOR EDITOR RESIZING (ENABLED OR DISABLED)
+	- IF WE DONT WANT THE EDITOR RESIZING THEN WE CAN make it false with "theme_advanced_resizing:False" state control.
+
+
+10. FOR EDIT THE WIDTH AND HEIGHT OF EDITOR
+	- NOW WE CAN MANAGE THE WIDTH OF THE EDITOR FROM JS.PHP FILE ACCORDING TO THE CONTROLS. E.G. if we have 10 controls on editor
+	  then we can adjust the width according to the 10 controls.
+
+	- We can also manage the height of the editor from js.php file.
+
+
+11. If you want to give the space between the controls then you will type '|' e.g. you want to give the space
+    between bold and italic control then the following format would be follow:-
+    theme_advanced_buttons1 :"bold,"|,italic"
+
+
+12. The following plugins can add and removed for following options:-
+	table		-	For table,tablecontrols option(e.g.insert row,delete row,insert column etc...)
+	fullscreen	-	For fullscreen option
+	advhr		-	For horizontal rule option
+	preview		-	For preview option
+	paste		-	For pastetext,pasteword option
+	media		-	For media option
+	insertdatetime	-	For insertdate,inserttime option
+	print		-	For print option
+	iespell		-	For iespell option
+	pagebreak	-	For pagebreak option
+	layer		-	For insertlayer,moveforward,movebackword,absolute options
+	advimage	-	For insert/edit images
+	style		-	For styleprops option
+	directionality	-	For ltr,rtl option
+	xhtmlxtras	-	For cite,abbr,acronym,del,ins,attribs options
+	visualchars	-	For visualchars option 	
+	template	-	For template option
+	
+ 	
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Note:- All the changes for cms editor, will be implemented from js.php file. If we change in js.php file, it will leave it's own impact on cms editor.
+(we can make the cms as advanced or we can make the cms as basic or simple from js.php file)

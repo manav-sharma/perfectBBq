@@ -1,0 +1,92 @@
+@media screen and (max-width:1199px)
+{
+#header {padding: 28px 0;}
+.tabIn #main ul#tab {width: 330px;}
+.khmHeading p {padding: 0 100px;}
+.khmInner p {font-size: 15px;}
+ul.standarlist li { font-size:15px;}
+p { font-size:16px;}
+}
+
+
+@media screen and (max-width:991px){
+.tabIn #main ul#tab {width: 265px;}
+.khmHeading p { padding: 0;}
+#KHM {padding: 35px 0;}
+#amazing {padding: 35px 0;}
+#selling{ padding:50px 0;}
+.amazingRight {padding-top: 10px;}
+.amazingRight h2 {margin: 0 0 15px;}
+.amazingRight button {margin: 25px 0 0;}
+.footerMenu ul li:not(:last-child) {margin: 0 30px 0 0;}
+#footer{ padding:40px 0 20px;}
+.khmOuter{ margin:30px 0 0 0;}
+
+}
+
+
+@media screen and (max-width:767px){
+.footerMenu ul li:not(:last-child) {margin: 0 10px 0 0;}
+#content { padding:40px 0;}
+h1 { font-size:33px; padding-bottom:10px;}
+h2 { font-size:23px; padding-bottom:10px;}
+h3 { font-size:18px; padding-bottom:15px;}
+.borderBox { padding-bottom:20px; margin-bottom:20px;}
+}
+
+@media screen and (max-width:580px){  .socialform li{ margin-bottom:10px;} }
+
+
+
+@media screen and (max-width:572px){
+.logo{ width:30%;}
+.login{width:65%;}
+.login ul li a{ padding:15px 20px;}
+#selling{ background:url(../images/man01.png) no-repeat center top; background-size:cover; -moz-background-size:cover; -webkit-background-size:cover;}
+
+}
+
+
+@media screen and (max-width:497px){
+.tabIn #main ul#tabs { width:100%; height:auto; border-bottom: 2px solid #ffffff; border-right:none;}
+.tabIn #main ul#tabs li{ display:inline-block; text-align:left;}
+.tabIn #main ul#tab{ width:100%; margin:20px 0;}
+.tabIn #main ul#tab li{ padding:0 20px 0 0;}
+.tabIn #main{ padding:12px 10px 28px 12px;}
+.tabIn{ padding:0 0 0 20px;}
+.mainBg::after{ left:45%;}
+.tabIn #main ul#tabs li{ padding-right:4px;}
+.tabIn #main{ height:auto;}
+.mainBg p.topText {
+    left: 40%;
+    position: absolute;
+    text-transform: uppercase;
+    top: -45px;
+}	
+	
+}
+
+@media screen and (max-width:480px){
+.khmHeading h2, .amazingRight h2, .sellingList h2, .footerHeading h2{ font-size:30px;}
+.logo{ width:26%;}
+.login{width:70%;}
+}
+
+@media screen and (max-width:470px){
+.tabForm .form-group{ width:100%;}
+.tabForm .form-group .inputBg, .tabForm .form-group-full{ width:100%;}
+
+}
+
+
+@media screen and (max-width:448px){
+.logo{ width:100%; text-align:center; margin-bottom:30px;}
+.logo img{ display:inline-block;}
+.login ul{ text-align:center; float:none;}
+.login ul li{ float:none;}
+.login{width:100%;}
+}
+
+@media screen and (max-width:360px){
+.login ul li:not(:last-child){ margin:0 5px 0 0;}
+}

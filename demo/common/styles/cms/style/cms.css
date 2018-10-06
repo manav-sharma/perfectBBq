@@ -1,0 +1,193 @@
+.cmsEditor_closeMeida{
+	background:url("../images/close.gif") left 8px no-repeat;
+	display:inline-block;
+	width:20px;
+	height:30px;
+}
+#cmsEditor_Mediapreview{
+	background:url("../images/loading.gif") center no-repeat;
+}
+#cmsEditor_Mediapreview table{
+	border-collapse:collapse;
+}
+.cmsEd_contentArea
+{
+	padding:5px;
+}
+.cmsEd_updatedDateWrapper{
+	bottom:0px;
+	left:0px;
+	font-family:Tahoma, Arial, sans-serif;
+	font-size:11px;
+	color:#747474;
+	border-top:solid 1px #d4d4d4;
+	line-height:30px;
+	text-indent:7px;
+}
+.cmsEd_mouseOutEffect,.cms_contentWrapper{
+/*	border:solid 1px #b7cee2; With Borders*/
+	border:solid 1px #fff;
+	border-top:none;
+}
+.cmsEd_mouseOverEffect{
+	border:dashed 1px #ec2466;
+	border-top:none;
+}
+.cmsEd_header{
+	background:url("../images/headerBg.gif") left top repeat-x;
+	height:28px;
+	width:100%;
+	font-size:11px;
+	color:#2a4d79;
+}
+.cmsEditor_header{
+	background:url("../images/headerBg.gif") left top repeat-x;
+	height:28px;
+	width:100%;
+	font-size:11px;
+	color:#2a4d79;
+}
+.cmsEditor_title{
+	padding:0 0 0 10px;
+	float:left;
+	line-height:28px;
+	border-left:solid 1px #b0d1ef;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.cmsEditor_buttons{
+	float:right;	
+	width:auto;
+	border-right:solid 1px #b0d1ef;
+}
+.cmsEd_buttons{
+	float:right;	
+	width:auto;
+	border-right:solid 1px #b0d1ef;
+}
+a.cmsEditor_saveBtn{
+	background:url("../images/save.gif") left 9px no-repeat;
+	font-family:Tahoma, Arial, sans-serif;
+	font-size:11px;
+	color:#0f50a9;
+	padding:0 10px 0 15px;
+	line-height:26px;
+	text-align:left;
+	display:inline-block;
+	width:auto;
+	oultine:none;
+}	
+a:hover.cmsEditor_saveBtn{
+	color:#0377fc;oultine:none;
+}
+a.cmsEd_editBtn{
+	background:url("../images/edit.gif") left no-repeat;
+	margin:0 5px 0 0;
+	line-height:26px;
+	display:inline-block;
+	width:15px;oultine:none;
+}	
+a:hover.cmsEd_editBtn{
+	background:url("../images/edit.gif") -15px no-repeat;
+}
+a.cmsEd_restoreBtn{
+	background:url("../images/restore.gif") left no-repeat;
+	margin:0 5px 0 0;
+	line-height:26px;
+	display:inline-block;
+	width:16px;oultine:none;
+}
+a:hover.cmsEd_restoreBtn{
+	background:url("../images/restore.gif") -16px no-repeat;
+}
+a.cmsEd_prev_restoreBtn{
+	background:url("../images/previousRestore.gif") left no-repeat;
+	margin:0 5px 0 0;
+	line-height:26px;
+	display:inline-block;
+	width:16px;oultine:none;
+}
+a:hover.cmsEd_prev_restoreBtn{
+	background:url("../images/previousRestore.gif") -16px no-repeat;
+}
+
+a.cmsEditor_closeBtn{
+	background:url("../images/close.gif") left 9px no-repeat;
+	font-family:Tahoma, Arial, sans-serif;
+	font-size:11px;
+	color:#0f50a9;
+	padding:0 10px 0 18px;
+	line-height:26px;
+	text-align:left;
+	display:inline-block;
+	width:auto;oultine:none;
+}	
+a:hover.cmsEditor_closeBtn{
+	color:#0377fc;oultine:none;
+}
+.cmsEd_title{
+	background:url("../images/editableRegion.gif") 5px center no-repeat;
+	padding:0 0 0 25px;
+	float:left;
+	border-left:solid 1px #b0d1ef;
+	line-height:28px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#2a4d79;
+}	
+
+/**** Help Menu Items ****/
+
+#cmsEditorHelp{
+	display:none;
+	text-align:left;
+	position:relative;
+}
+a.closeHelp{
+	position:absolute;
+	top:-08px;
+	right:0px;
+	width:14px;
+	height:14px;
+	display:inline-block;
+	background:url("../images/closehelp.gif") left top no-repeat;
+}
+a:hover.closeHelp{
+	background:url("../images/closehelp.gif") left -14px no-repeat;
+}
+#cmsEditorHelp h1{
+	font-family:Calibri, Candara, sans-serif;
+	font-size:24px;
+	color:#114894;
+	font-weight:normal;
+	line-height:26px;
+	margin:10px 0;
+	padding:0px 0 10px 0;
+	border-bottom:solid 4px #d5e1f2;
+}
+#cmsEditorHelp ul{
+	list-style-type:disc;
+	margin:10px 0 10px 20px;
+}
+#cmsEditorHelp li{
+	margin:3px 0;
+	color:#404040;
+	font-family:Tahoma, Arial, sans-serif;
+	font-size:11px;
+	color:#575757;
+	line-height:16px;
+}
+#cmsEditorHelp h3{
+	font-family:"segoe UI", Arial, Sans-serif;
+	font-size:14px;
+	color:#2c63b0;
+	font-weight:normal;
+	background:#d5e1f2;
+	padding:5px 0 5px 5px;
+}
+#cmsEditorHelp p{
+	margin:0 0 7px 0;	
+	font-family:Tahoma, Arial, sans-serif;
+	font-size:11px;
+	color:#575757;
+	line-height:16px;
+}
